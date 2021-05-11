@@ -32,10 +32,10 @@ header{
     border-color: #707070;
     border-width: 0.1px;
     border-radius: 3px;
-    padding: 6px 70px 6px 45px;
-    margin-left: 100px;
+    padding: 6px 4.9vw 6px 3.15vw;
+    margin-left: 7vw;
     margin-top: 30px;
-    width: 40px;
+    width: 2.8vw;
 }
 ::placeholder { 
     color: black;
@@ -54,12 +54,13 @@ header{
 input[type="button"]{
     background-color: #E50051;
     border: none;
-    padding: 6px 8px 6px 8px;
+    padding: 6px 0.56vw 6px 0.56vw;
     color: #fff;
     position: absolute;
     top: 31px;
-    left: 457px;
+    left: 32.68vw;
     border-radius: 3px;
+    cursor: pointer;
 }
 .search input[type=text]{
     background-color: white;
@@ -67,30 +68,30 @@ input[type="button"]{
     border-color: #707070;
     border-width: 0.1px;
     border-radius: 3px;
-    padding: 6px 50px 6px 20px;
-    margin-left: 50px;
+    padding: 6px 3.5vw 6px 1.4vw;
+    margin-left: 3.5vw;
     margin-top: 30px;
-    width: 40px;
+    width: 2.86vw;
 }
 .search img{
     width: 20px;
     position: absolute;
     top: 35px;
-    left: 635px;
+    left: 45.2vw;
 }
 .navbar a{
     color: #E50051;
     text-decoration: none;
-    margin-left: 30px;
+    margin-left: 2.145vw;
     font-weight: 600;
     border-color: black;
     border-radius: 250px;
     background-color:#fff;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    box-shadow: 5px 5px 25px #c0c0c0;
+    padding-left: 0.71vw;
+    padding-right: 0.71vw;
+    box-shadow: 0.35vw 5px 25px #c0c0c0;
 }
 .navbar a:hover{
     background-color: #E50051;
@@ -102,41 +103,41 @@ input[type="button"]{
 }
 .navbar{
     position: absolute;
-    left: 750px;
+    left: 53.63vw;
     top: 70px;
 }
 .iconsnav img{
-    margin-left: 20px;
-    width: 20px;
+    margin-left: 1.43vw;
+    width: 1.43vw;
 }
 .iconsnav{
     margin-top: 15px;
-    margin-left: 70px;
+    margin-left: 5vw;
 }
 .firsticonsnav{
-    margin-left: 125px;
+    margin-left: 8.938vw;
 }
 .home{
     background-color: #fff;
     display: flex;
 }
 .shopiconnav{
-    margin-left: 65px;
+    margin-left: 4.64vw;
 }
 .ethicsiconnav{
-    margin-left: 60px;
+    margin-left: 4.29vw;
 }
 .home h1{
     margin: 0px;
     font-size: 50px;
-    margin-left: 100px;
+    margin-left: 7.15vw;
 }
 .firsth1{
     padding-top: 50px;
 }
 .home p{
-    width: 600px;
-    margin-left: 100px;
+    width: 42.90vw;
+    margin-left: 7.15vw;
     margin-top: 15px;
 }
 .home button{
