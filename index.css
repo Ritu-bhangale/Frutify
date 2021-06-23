@@ -261,6 +261,8 @@ button.notfirstbtn:hover{
     background-color: white;
     height: 4.714vh;
     margin-right: 0.715vw;
+    border-radius: 50px;
+    padding: 5px;
 }
 button.button1st,.tags button:hover{
     background-color: #fff;
