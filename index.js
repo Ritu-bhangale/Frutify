@@ -29,8 +29,13 @@ reset=()=>{
 resetColor=()=>{
     for (let index = 0; index < smallestQuantity.length; index++){
     document.querySelectorAll(".smallest")[index].style.backgroundColor="#ffffff";
-    document.querySelectorAll(".smallest")[index].style.color="#000000";}
+    document.querySelectorAll(".smallest")[index].style.color="#000000";
+    document.querySelectorAll(".middle")[index].style.backgroundColor="#ffffff";
+    document.querySelectorAll(".middle")[index].style.color="#000000";
+    document.querySelectorAll(".largest")[index].style.backgroundColor="#ffffff";
+    document.querySelectorAll(".largest")[index].style.color="#000000";
     console.log("entered");
+    }
 }
 resetPrice=()=>{
     price=0;
@@ -55,21 +60,21 @@ smallTag=()=>{
 middleTag=()=>{
     console.log("clicked");
     for (let index = 0; index < middleQuantity.length; index++) {  
-        document.querySelectorAll(".smallest")[index].style.backgroundColor="#E50051";
-        document.querySelectorAll(".smallest")[index].style.color="#ffffff";
+        document.querySelectorAll(".middle")[index].style.backgroundColor="#E50051";
+        document.querySelectorAll(".middle")[index].style.color="#ffffff";
         document.querySelectorAll(".price")[index].style.display = "block";
         document.querySelectorAll(".price span")[index].innerHTML="180Rs";
     }
     flag=2;
 }
 /**
- * 250ml selected
+ * 250ml selectedlargest
  */
  largeTag=()=>{
     console.log("clicked");
     for (let index = 0; index < largestQuantity.length; index++) { 
-        document.querySelectorAll(".smallest")[index].style.backgroundColor="#E50051";
-        document.querySelectorAll(".smallest")[index].style.color="#ffffff"; 
+        document.querySelectorAll(".largest")[index].style.backgroundColor="#E50051";
+        document.querySelectorAll(".largest")[index].style.color="#ffffff"; 
         document.querySelectorAll(".price")[index].style.display = "block";
         document.querySelectorAll(".price span")[index].innerHTML="360Rs";
     }
