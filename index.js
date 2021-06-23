@@ -115,3 +115,38 @@ addCart=()=>{
     resetColor();
     reset();
 }
+var arrayReview=[];
+arrayReview[0]="Dragée sugar plum lemon drops gummi bears caramels. I love cookie carrot cake danish wafer tootsie roll chocolate bar.";
+arrayReview[1]="Jelly beans sweet chocolate bar pastry chocolate bar soufflé chocolate cake croissant. Cotton candy chocolate cake tart icing carrot cake ice cream carrot cake jujubes apple pie.";
+arrayReview[2]="Carrot cake cotton candy lollipop biscuit. Jelly-o dragée jujubes wafer carrot cake sweet. I love marshmallow sesame snaps oat cake sweet brownie. Gingerbread jelly-o cookie jelly-o cupcake cotton candy.";
+
+var arrayReviewHead=[];
+arrayReviewHead[0]="Louisa park";
+arrayReviewHead[1]="Jack Desouiza";
+arrayReviewHead[2]="Driffen Hasset"
+console.log(document.querySelector(".paper1 p span"))
+document.querySelector(".paper1 p span").innerHTML=arrayReview[0];
+document.querySelector(".paper1 h2 span").innerHTML=arrayReviewHead[0];
+
+toggleLeft=()=>{
+    for (let index = 0; index < 3; index++) {
+        if(index!==0){
+            document.querySelector(".paper1 p span").innerHTML=arrayReview[index-1];
+            document.querySelector(".paper1 h2 span").innerHTML=arrayReviewHead[index-1];
+        }
+        else if(index===0){
+            document.querySelector(".paper1 p span").innerHTML=arrayReview[2];
+        }
+    }
+}
+toggleRight=()=>{
+    for (let index = 0; index < 3; index++) {
+        if(index!==2){
+            document.querySelector(".paper1 p span").innerHTML=arrayReview[index+1];
+            document.querySelector(".paper1 h2 span").innerHTML=arrayReviewHead[index-1];
+        }
+        else if(index===2){
+            document.querySelector(".paper1 p span").innerHTML=arrayReview[0];
+        }
+    }
+}
