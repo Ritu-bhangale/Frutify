@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Frutify-Buy</title>
+</head>
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="shop.css"/>
+<body>
+    <a href="index.html">
+    <div class="logo">
+            <img src="logo.png" alt="Logo"/>
+    </div></a>
+    <div class="deliver">
+    <h1>Select a Delivery Address!</h1>
+    <hr color="#E50051"/>
+    <h2>Add a new Address</h2>
+    <label for="Places">City/Region :</label>
+    <div class="custom-select">
+    <select name="City" id="Places">
+        <div class="option-select">
+        <option value="pune">Pune</option>
+        <option value="mumbai">Mumbai</option>
+        <option value="nagpur">Nagpur</option>
+        <option value="nasik">Nasik</option>
+        </div>
+    </select>
+</div>
+    <h4>Full name (First and Last name):</h4>
+    <input type="text" name="fname" id="fname"/>
+    <h4>Mobile Number:</h4>
+    <input type="text" name="cell" id="cell" placeholder="10-digit mobile number without prefixes" maxlength="10" minlength="10"/>
+    <p>May be used to assist delivery</p>
+    <h4>Flat/House no./Building/Company/Aparment:</h4>
+    <input type="text" name="houseno" id="houseno"/>
+    <h4>Area,colony,street,sector:</h4>
+    <input type="text" name="colony" id="colony"/>
+    <a href="payment.xhtml" style="text-decoration: none;"><button style="text-decoration: none;">Add Address</button></a>
+    </div>
+</body>
+</html>
