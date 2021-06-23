@@ -17,14 +17,14 @@ header{
 }
 .logo img{
     width: 120px;
-    margin-top: 25px;
+    margin-top: 3.9285vh;
     margin-left: 120px;
 }
 .cart img{
     width: 18px;
     position: absolute;
-    top: 35px;
-    left: 350px;
+    top: 5.5vh;
+    left: 25.025vw;
 }
 .shop input[type=text]{
     background-color: white;
@@ -32,9 +32,9 @@ header{
     border-color: #707070;
     border-width: 0.1px;
     border-radius: 3px;
-    padding: 6px 4.9vw 6px 3.15vw;
+    padding:0.9428vh 4.9vw 0.9428vh 3.15vw;
     margin-left: 7vw;
-    margin-top: 30px;
+    margin-top: 4.7142vh;
     width: 2.8vw;
 }
 ::placeholder { 
@@ -54,10 +54,10 @@ header{
 input[type="button"]{
     background-color: #E50051;
     border: none;
-    padding: 6px 0.56vw 6px 0.56vw;
+    padding: 0.9428vh 0.56vw 0.9428vh 0.56vw;
     color: #fff;
     position: absolute;
-    top: 31px;
+    top: 4.87142vh;
     left: 32.68vw;
     border-radius: 3px;
     cursor: pointer;
@@ -68,15 +68,15 @@ input[type="button"]{
     border-color: #707070;
     border-width: 0.1px;
     border-radius: 3px;
-    padding: 6px 3.5vw 6px 1.4vw;
+    padding: 0.9428vh 3.5vw 0.9428vh 1.4vw;
     margin-left: 3.5vw;
-    margin-top: 30px;
+    margin-top: 4.714vh;
     width: 2.86vw;
 }
 .search img{
     width: 20px;
     position: absolute;
-    top: 35px;
+    top: 5.15vh;
     left: 45.2vw;
 }
 .navbar a{
@@ -87,11 +87,12 @@ input[type="button"]{
     border-color: black;
     border-radius: 250px;
     background-color:#fff;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 3.1428vh;
+    padding-bottom: 3.1428vh;
     padding-left: 0.71vw;
     padding-right: 0.71vw;
     box-shadow: 0.35vw 5px 25px #c0c0c0;
+    scroll-behavior: smooth;
 }
 .navbar a:hover{
     background-color: #E50051;
@@ -104,14 +105,14 @@ input[type="button"]{
 .navbar{
     position: absolute;
     left: 53.63vw;
-    top: 70px;
+    top: 11vh;
 }
 .iconsnav img{
     margin-left: 1.43vw;
     width: 1.43vw;
 }
 .iconsnav{
-    margin-top: 15px;
+    margin-top: 3vh;
     margin-left: 5vw;
 }
 .firsticonsnav{
@@ -133,20 +134,20 @@ input[type="button"]{
     margin-left: 7.15vw;
 }
 .firsth1{
-    padding-top: 50px;
+    padding-top: 7.8571vh;
 }
 .home p{
     width: 42.90vw;
     margin-left: 7.15vw;
-    margin-top: 15px;
+    margin-top: 11vh;
 }
 .home button{
     background-color: #E50051;
     border: none;
     color: #fff;
-    padding: 13px 40px 13px 40px;
-    margin-left: 100px;
-    margin-top: 50px;
+    padding: 2.04vh 2.8vw 2.04vh 2.8vw;
+    margin-left: 7.15vw;
+    margin-top: 7.8571vh;
     border-radius: 50px;
     cursor: pointer;
 }
@@ -155,17 +156,17 @@ input[type="button"]{
     color: black;
 }
 .home-image img{
-    width: 750px;
+    width: 53.624vw;
 }
 .home-left{
-    background-color: #fff;
+    background:none;
     height: 400px;
     margin-top: 100px;
     margin-bottom: 150px;
-    padding-right: 60px;
+    padding-right: 4.29vw;;
 }
 .home-right img{
-    width: 600px;
+    width: 42.9vw;
     margin-top: 100px;
 }
 .about{
@@ -175,19 +176,19 @@ input[type="button"]{
 .about-written h1{
     font-size: 40px;
     margin: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 4.714vh;
 }
 .about-written p{
     margin: 0px;
-    margin-top: 20px;
-    width: 500px;
+    margin-top: 3.1428vh;
+    width: 35.75vw;
 }
 .about-written{
-    margin-left: 80px;
-    margin-right: 100px;
+    margin-left: 5.72vw;
+    margin-right: 7.15vw;
 }
 .card img{
-    width: 50px;
+    width: 3.575vw;
 }
 .card h2{
     margin:0px;
@@ -195,23 +196,23 @@ input[type="button"]{
 }
 .card p{
     margin: 0px;
-    width: 250px;
+    width: 17.875vw;
     font-size: 12px;
 }
 .about-card-top{
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 7.8571vh;
 }
 .about-card-bottom{
     display: flex;
 }
 .leftcard{
-    margin-right: 50px;
+    margin-right: 3.575vw;
 }
 .card{
-    width: 250px;
+    width: 17.875vw;
     box-shadow: 3px 3px 25px #c0c0c0;
-    padding: 20px;
+    padding: 3.1428vh;
 }
 .shopdiv{
     padding-top: 150px;
@@ -219,8 +220,8 @@ input[type="button"]{
 .shop-top h1{
     font-size: 40px;
     margin: 0px;
-    margin-bottom: 30px;
-    margin-left: 90px;
+    margin-bottom: 4.714vh;
+    margin-left: 6.435vw;
 }
 .select-top-btns button{
     background-color: #fff;
@@ -229,24 +230,24 @@ input[type="button"]{
     border-radius: 50px;
     border-style: solid;
     border-width: 2px;
-    padding: 8px 20px 8px 20px;
+    padding: 8px 1.43vw 8px 1.43vw;
 }
 .select-top-btns button:hover{
     background-color: #E50051;
     color: #fff;
 }
 .notfirstbtn{
-    margin-left: 20px;
+    margin-left: 1.43vw;
 }
 button.notfirstbtn:hover{
     background-color: #E50051;
     color: #fff;
 }
 .shop-top{
-    margin-left: 400px;
+    margin-left: 28.6vw;
 }
 .plot img{
-    width: 300px;
+    width: 21.45vw;
 }
 .plot h2{
     margin: 0px;
@@ -254,11 +255,12 @@ button.notfirstbtn:hover{
     margin-bottom: 10px;
     margin-top: 5px;
 }
+
 .tags button{
     border: none;
     background-color: white;
-    height: 30px;
-    margin-right: 10px;
+    height: 4.714vh;
+    margin-right: 0.715vw;
 }
 button.button1st,.tags button:hover{
     background-color: #fff;
@@ -267,12 +269,12 @@ button.button1st,.tags button:hover{
     border-radius: 50px;
     border-style: solid;
     border-width: 2px;
-    padding: 3px 20px 3px 20px;
+    padding: 3px 1.43vw 3px 1.43vw;
 }
 .tags p{
     margin: 0px;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 3.1428vh;
     color: #E50051;
 }
 .tags{
@@ -284,17 +286,17 @@ button.button1st,.tags button:hover{
 .quantity{
     display: flex;
     border-style: solid;
-    border-width: 2px;
+    border-width: 0.143vw;
     border-color: #E50051;
     border-radius: 50px;
     padding: 5px;
-    height: 20px;
-    width: 80px;
+    height: 3.1428vh;
+    width: 5.72vw;
 }
 .quantity p{
     font-weight: 700;
     margin: 0px;
-    margin-right: 25px;
+    margin-right: 1.7875vw;
 }
 p.adjust:hover{
     color: #E50051;
@@ -302,33 +304,36 @@ p.adjust:hover{
 p.adjust{
     cursor: pointer;
 }
+p.price{
+    margin-left: 2vw;
+}
 .final button{
     border: none;
     background-color: #E50051;
     color: #fff;
-    padding: 6px 20px 6px 20px;
+    padding: 1.5vh 1.43vw 1.5vh 1.43vw;
     border-radius: 50px;
-    margin-left: 40px;
+    margin-left: auto;
     cursor: pointer;
 }
 .final{
     margin-top: 15px;
-    margin-left: 10px;
+    margin-left: 0.715vw;
 }
 .plot{
-    margin-top: 50px;
-    margin-left: 50px;
-    width: 265px;
+    margin-top: 7.8571vh;
+    margin-left: 3.575vw;
+    width: 18.9475vw;
     box-shadow: 3px 3px 25px #c4c4c4;
-    padding: 20px;
+    padding: 3.1428vh;
     border-radius: 5px;
 }
 .plots-top,.plots-bottom{
     display: flex;
-    margin-left: 150px;
+    margin-left: 10.725vw;
 }
 .plots-top{
-    margin-top: 50px;
+    margin-top: 7.8571vh;
 }
 button.viewmore{
     background-color: #fff;
@@ -337,10 +342,10 @@ button.viewmore{
     border-radius: 50px;
     border-style: solid;
     border-width: 2px;
-    padding: 8px 40px 8px 40px;
+    padding: 8px 2.86vw 8px 2.86vw;
     cursor: pointer;
-    margin-left: 600px;
-    margin-top: 50px;
+    margin-left: 42.9vw;
+    margin-top: 7.8571vh;
 }
 .process h2{
     font-size: 40px;
@@ -356,7 +361,7 @@ button.viewmore{
 }
 .sheets p{
     margin: 0px;
-    width: 230px;
+    width: 16.445vw;
     font-size: 12px;
 }
 .sheetsall{
@@ -364,11 +369,11 @@ button.viewmore{
 }
 .process{
     padding-top: 100px;
-    margin-left: 180px;
+    margin-left: 12.87vw;
 }
 .sheets{
-    margin-top: 30px;
-    margin-right: 30px;
+    margin-top: 4.714vh;
+    margin-right: 2.145vw;
 }
 .downsheet{
     margin-top: 80px;
@@ -376,40 +381,44 @@ button.viewmore{
 .review h1{
     font-size: 40px;
     margin-bottom: 40px;
+    text-align: center;
 }
 .review p{
-    width: 500px;
+    width: 35.75vw;
     font-size: 15px;
 }
 .review{
-    margin-left: 400px;
     padding-top: 100px;
 }
 .paper{
     box-shadow: 2px 2px 25px #cecece;
-    padding: 20px;
-    width: 500px;
+    padding: 5.1428vh;
+    width: 35.75vw;
+    justify-content: center;
+    margin: auto;
 }
 .toggle svg{
-    width: 100px;
+    width: 7.15vw;
     cursor: pointer;
+    justify-content: center;
+    display: inline-flex;
 }
 .toggle svg:hover{
     color: #E50051;
 }
 .toggle{
-    margin-top: 30px;
-    margin-left: 150px;
+    margin-top: 4.714vh;
+    margin-left: 40.725vw;
 }
 footer {
     display: flex;
     padding-bottom: 40px;
-    padding-top: 50px;
+    padding-top: 7.8571vh;
     background-color: #ebebeb;
-    margin-top: 50px;
+    margin-top: 7.8571vh;
 }
 footer img{
-    width: 150px;
+    width: 10.725vw;
 }
 .column1 p{
     margin: 0px;
@@ -418,16 +427,16 @@ footer img{
     display: flex;
 }
 .column2 p{
-    margin-left: 20px;
+    margin-left: 1.43vw;
 }
 .column1{
-    margin-left: 100px;
+    margin-left: 7.15vw;
 }
 .column2{
-    margin-left: 300px;
+    margin-left: 21.45vw;
 }
 .column3{
-    margin-left: 200px;
+    margin-left: 14.3vw;
 }
 .column3 p{
     margin-bottom: 2px;
@@ -435,7 +444,7 @@ footer img{
 }
 .number{
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 3.1428vh;
 }
 .address{
     display: flex;
@@ -459,22 +468,39 @@ button{
 .orangeplace{
     position: absolute;
     top: 1100px;
-    width: 500px;
-    left: 850px;
+    width: 35.795vw;
+    left: 60.8515vw;
+    display:none;
 }
 .leafplace{
     top: 1250px;
     position: absolute;
-    width: 250px;
+    width: 17.8975vw;
+    display:none;
 }
 .strawshake{
     position: absolute;
-    width: 400px;
-    left: 1050px;
+    width: 28.636vw;
+    left: 75.1695vw;
     top: 2590px;
+    display:none;
 }
 .leafplace2{
     top: 3100px;
     position: absolute;
-    width: 400px;
+    width: 28.636vw;
+    display:none;
+}
+video.backgroundvideo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.shop p{
+    color: #707070;
+    position: absolute;
+    top: 3.4vh;
+    left: 27vw;
+    font-size: 80%;
 }
