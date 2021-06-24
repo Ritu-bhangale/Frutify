@@ -413,11 +413,13 @@ button.viewmore{
     margin-left: 40.725vw;
 }
 footer {
-    display: flex;
     padding-bottom: 40px;
     padding-top: 7.8571vh;
     background-color: #ebebeb;
     margin-top: 7.8571vh;
+}
+.columns{
+    display: flex;
 }
 footer img{
     width: 10.725vw;
@@ -505,4 +507,86 @@ video.backgroundvideo{
     top: 3.4vh;
     left: 27vw;
     font-size: 80%;
+}
+footer p{
+    margin-left: 43vw;
+}
+.logos {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5vh;
+} 
+.button{
+    height: 60px;
+    width: 60px;
+    background-color: var(--grey);
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    float: left;
+    overflow: hidden;
+    transition: all 0.3s;
+    margin-left: 13px;
+}
+.button:hover{
+    width: 150px;
+}
+.instaicon a,.linkedinicon a,.twittericon a,.behanceicon a,.githubicon a{
+    color: #000000;
+}
+.instaicon:hover{
+    background-color: #ff007f;
+    color: #fff;
+}
+.instaicon a:hover{
+    color: #fff;
+}
+.instaicon a:visited{
+    color: #000000;
+}
+.instabutton:hover,.linkedinbutton:hover,.twitterbutton:hover,.githubbutton:hover,.behancebutton:hover{
+    background-color: #fff;
+}
+.instaicon:hover~.instaspan{
+    color: #ff007f;
+}
+.linkedinicon:hover{
+    background-color: #0072b1;
+    color: #fff;
+}
+.linkedinicon a:hover{
+    color: #fff;
+}
+.linkedinicon:hover~.linkedinspan{
+    color: #0072b1;
+}
+.twittericon:hover{
+    background-color: #00acee;
+}
+.twittericon a:hover{
+    color: #fff;
+}
+.twittericon:hover~.twitterspan{
+    color: #00acee;
+}
+.instabutton:hover{
+    width: 180px;
+}
+.button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 30px;
+    color: #000000;
+}
+.button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+}
+.button:hover~.icon a{
+    color: #fff;
+}
+.githubicon a:hover,.behanceicon a:hover{
+    color: #000000;
 }
