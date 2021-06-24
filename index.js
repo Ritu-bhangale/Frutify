@@ -16,6 +16,8 @@ console.log(smallestQuantity);
 console.log(middleQuantity);
 console.log(largestQuantity);
 
+document.querySelector("body").addEventListener("load",checkCookie)
+
 /**
  * Quantity tag clicked
  */
@@ -150,3 +152,40 @@ toggleRight=()=>{
         }
     }
 }
+function setCookie(cname,cvalue,exdays) {
+  const d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  let expires = "expires=" + d.toGMTString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+  let name = cname + "=";
+  let decodedCookie = decodeURIComponent(document.cookie);
+  let ca = decodedCookie.split(';');
+  for(let i = 0; i < ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+
+function checkCookie() {
+    console.log("entered");
+  let user = getCookie("username");
+  if (user != "") {
+    alert("Welcome again " + "'"+ user + "'"+" Hope you were refreshed last time you visited!");
+  } else {
+     user = prompt("Please enter your name:",""+"We have potential to make your stressed day fresh!");
+     if (user != "" && user != null) {
+       setCookie("username", user, 30);
+     }
+  }
+}
+
+
