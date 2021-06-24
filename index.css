@@ -511,7 +511,7 @@ video.backgroundvideo{
 footer p{
     margin-left: 43vw;
 }
-.logos {
+/* .logos {
     display: flex;
     justify-content: center;
     padding-bottom: 5vh;
@@ -589,4 +589,4 @@ footer p{
 }
 .githubicon a:hover,.behanceicon a:hover{
     color: #000000;
-}
+} */
